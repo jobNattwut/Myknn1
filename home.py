@@ -8,5 +8,4 @@ st.image('./img/myphoto01.jpg')
 st.subheader("Nattwut Limchai")
 
 dt=pd.read_csv('./data/iris.csv')
-st.header("ข้อมูลดอกไม้")
 st.write(dt.head(10))
