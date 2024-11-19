@@ -7,6 +7,6 @@ st.header("💣💣Websit Developing using python💣💣")
 st.image('./img/myphoto.jpg')
 st.subheader("Nattwut Limchai")
 
-dt=pd.read_csv('./data/iris-3.csv')
-st.header()
+dt=pd.read_csv('./data/iris.csv')
+st.header("ข้อมูลดอกไม้")
 st.write(dt.head(10))
