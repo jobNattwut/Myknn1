@@ -4,9 +4,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-
-st.header('Nattawut')
 st.image("./img/myphoto.jpg")
+st.header('Nattawut')
+st.header('Information Technology')
 col1, col2, col3 = st.columns(3)
 
 with col1:
